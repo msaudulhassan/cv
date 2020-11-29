@@ -13,7 +13,7 @@
 	<div class="everything-container">
 		<div class="title">
 			<h1 class="heading" style="font-size: 26pt; font-weight: 700; font-family: 'Ubuntu', sans-serif;">Hey, I'm Saud -- A Self-taught <br/>Programmer</h1>
-			<h1 class="heading" style="font-size: 14pt; margin-top: -5px; width: 70%; font-weight: 400; line-height: 1.4em; width: 80%; color: #000">I've done work in optimal control and deep learning, developed a social media website that got selected by a prestigious incubator, and am currently investigating adversarial attacks on autonomous vehicles for my master's thesis.</h1>
+			<h1 class="heading" style="font-size: 14pt; margin-top: -5px; width: 70%; font-weight: 400; line-height: 1.4em; width: 80%; color: #000">I've done work in optimal control and deep learning, developed a social media website that got selected by a prestigious incubator, and am currently working on stability-constrained trajectory optimization for my master's thesis.</h1>
 			<h1 class="heading" style="margin-top: 70px; margin-bottom: 35px; font-family: 'Ubuntu', sans-serif;">Featured Work.</h1>
 		</div>
 	    <div id="ex1" class="modal model-custom">
@@ -26,8 +26,37 @@
 	            <div class="modal-lower">
 	                <p class="modal-proj-sub">Under the supervision of Dr. Christian Hubicki</p>
 	                <p class="modal-proj-name">Stable Optimal Control</p>
-	                <p class="modal-proj-desc">Implemented Poincare and Monodromy matrix stability optimization criteria in COALESCE – a trajectory optimization library for MATLAB</p>
-			<p class="modal-proj-desc">Currently comparing the stability results against various “manually” stabilized systems</p>
+	                <p class="modal-proj-desc">Implemented two novel approaches (one based on Poincare Maps and the other on Floquet Theory) to define stability as a constraint in COALESCE -- a trajectory optimization library for MATLAB.</p>
+					<p class="modal-proj-desc">Compared and analysed the two approaches on damped single and double pendulum systems.</p>
+					<p class="modal-proj-desc">Currently implementing a method to compute eigenvalues in the optimization framework and constrain their magnitude.</p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="ex1_A" class="modal model-custom">
+	        <div class="modal-main">
+	            <div class="modal-upper">
+	                <div class="iframe-container">
+	                    <img class="responsive-iframe" src="trajectory.png">
+	                </div>
+	            </div>
+	            <div class="modal-lower">
+	                <p class="modal-proj-sub">Under the supervision of Dr. Olugbenga M. Anubi</p>
+	                <p class="modal-proj-name">AI-Based Automotive Dead Reckoning</p>
+	                <p class="modal-proj-desc">Implementing a neural network in series with a Kalman Filter to approximate and incorporate the error due to process non-linearity in the filter's prediction.</p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="ex1_B" class="modal model-custom">
+	        <div class="modal-main">
+	            <div class="modal-upper">
+	                <div class="iframe-container">
+	                    <img class="responsive-iframe" src="shiptracking.png">
+	                </div>
+	            </div>
+	            <div class="modal-lower">
+	                <p class="modal-proj-sub">Under the supervision of Dr. Olugbenga M. Anubi</p>
+	                <p class="modal-proj-name">AI Tracks at Sea Challenge</p>
+	                <p class="modal-proj-desc">Worked in a small team to implement a light end-to-end pipeline with a horizon detector and a YOLO-based object detector for the <a href="https://www.challenge.gov/challenge/AI-tracks-at-sea/" target="_blank">AI Tracks at Sea Challenge</a> by The Office of Naval Research.</p>
 	            </div>
 	        </div>
 	    </div>
@@ -41,8 +70,9 @@
 	            <div class="modal-lower">
 	                <p class="modal-proj-sub">Under the supervision of Dr. Xiuwen Liu</p>
 	                <p class="modal-proj-name">Deep Learning on Knowledge Graphs</p>
-	                <p class="modal-proj-desc">Studied Graph Neural Nets and image segmentation models, especially in connection to Panoptic Segmentation</p>
-	                <p class="modal-proj-desc">Currently working on extending project to improve on a previous model for pedestrian intent prediction by <a href="https://arxiv.org/abs/2002.08945">B. Liu et al. (Spatiotemporal Relationship Reasoning for Pedestrian Intent Prediction)</a></p>
+	                <p class="modal-proj-desc">Read literature on image segmentation, particularly panoptic segmentation.</p>
+	                <p class="modal-proj-desc">Researched graph neural networks to reason on monocular camera feed from a car and predict pedestrian indent.</a></p>
+	                <p class="modal-proj-desc"><a href=vision_report.pdf target="_blank">[Project Report <i class="fas fa-external-link-alt fa-xs"></i>]</a></p>
 	            </div>
 	        </div>
 	    </div>
@@ -54,11 +84,10 @@
 	                </div>
 	            </div>
 	            <div class="modal-lower">
-	                <p class="modal-proj-sub">Class Project | Independent Project</p>
+	                <p class="modal-proj-sub">Class Project</p>
 	                <p class="modal-proj-name">Multi-agent Path Planning</p>
-	                <p class="modal-proj-desc">Implemented & performed a comparative study of Space-time A*, Prioritized Planning, & Conflict-based Search for planning multiple paths on space-time graphs in Python</p>
-			<p class="modal-proj-desc">Scored 100% on the project. (The class average was around 83%)</p>
-	                <p class="modal-proj-desc">Currently working on extending Conflict-based Search using disjoint splitting, highways, etc.</p>
+	                <p class="modal-proj-desc">Implemented & performed a comparative study of Space-time A*, Prioritized Planning, & Conflict-based Search for planning multiple paths on space-time graphs in Python.</p>
+			<p class="modal-proj-desc">Scored 100% on the project, while the class average was around 83%.</p>
 	                <p class="modal-proj-desc"><a href=mapf_report.pdf target="_blank">[Project Report <i class="fas fa-external-link-alt fa-xs"></i>]</a> <span style="color: #afafaf">|<span> <a href=https://docs.google.com/presentation/d/1ocBAp4a3LapPAwDrpAuQvkfjipqDflxopjKe9785ZGM/edit?usp=sharing target="_blank">[Presentation <i class="fas fa-external-link-alt fa-xs"></i>]</a></p>
 	            </div>
 	        </div>
@@ -164,11 +193,9 @@
 				</div>
 	            </div>
 	            <div class="modal-lower">
-	                <p class="modal-proj-sub">Independent Project</p>
 	                <p class="modal-proj-name">Gradily</p>
 	                <p class="modal-proj-desc">A social media platform to connect prospective students applying abroad, especially those in rural areas with limited access to educational consultants and quality study-abroad resources</p>
-			<p class="modal-proj-desc">Shortlisted among 130 best startups by Plan9 (Pakistan's largest & most prestigious tech incubator)</p>
-	                <p class="modal-proj-desc">Unfortunately, I did not find time to complete the project and plan to get back to it someday</p>
+			<p class="modal-proj-desc">Shortlisted among 130 best startups by Plan9 -- Pakistan's largest & most prestigious tech incubator. (Unfortunately, I did not find the time to complete the project)</p>
 	            </div>
 	        </div>
 	    </div>
@@ -182,8 +209,9 @@
 	            <div class="modal-lower">
 	                <p class="modal-proj-sub"></p>
 	                <p class="modal-proj-name">Haptic-interface Solar Panel Polishing Robot</p>
-	                <p class="modal-proj-desc">Developed and solved the robot's dynamics and created a simulation in MATLAB</p>
-	                <p class="modal-proj-desc">Designed a control algorithm to enact proper joint torques for a realistic haptic feedback to the user</p>
+	                <p class="modal-proj-desc">Developed a panel polishing robot’s kinematics and created a simulation in MATLAB.</p>
+	                <p class="modal-proj-desc">Designed & implemented a control algorithm to enact proper joint torques for a realistic haptic feedback to the user.</p>
+	                <p class="modal-proj-desc"><a href=polisher_report.pdf target="_blank">[Project Report <i class="fas fa-external-link-alt fa-xs"></i>]</a></p>
 	            </div>
 	        </div>
 	    </div>
@@ -195,9 +223,9 @@
 	                </div>
 	            </div>
 	            <div class="modal-lower">
-	                <p class="modal-proj-sub"></p>
 	                <p class="modal-proj-name">Cruise Control with Evolving Car Dynamics</p>
-	                <p class="modal-proj-desc">Designed & simulated a cruise control algorithm in MATLAB (Simulink) to regulate the worst-case second-order performance of a car with changing dynamics because of tire wear, weather, road condition, etc.</p>
+	                <p class="modal-proj-desc">Designed & simulated a cruise control algorithm in MATLAB/Simulink to regulate the worst-case second-order performance of a non-autonomous (time-dependent) car model.</p>
+	                <p class="modal-proj-desc"><a href=car_report.pdf target="_blank">[Project Report <i class="fas fa-external-link-alt fa-xs"></i>]</a></p>
 	            </div>
 	        </div>
 	    </div>
@@ -209,9 +237,10 @@
 	                </div>
 	            </div>
 	            <div class="modal-lower">
-	                <p class="modal-proj-sub"></p>
+	                <p class="modal-proj-sub">Class Project</p>
 	                <p class="modal-proj-name">Target Seeking Rocket</p>
-	                <p class="modal-proj-desc">Developed the equations of motion, and implemented & simulated a closed-loop feedback control algorithm in MATLAB to correct the heading angle of a rocket in pursuit target</p>
+	                <p class="modal-proj-desc">Worked in team to develop the kinematics and implement a closed-loop feedback control algorithm in MATLAB/Simulink to dynamically correct the heading angle of a rocket in pursuit of a target.</p>
+	                <p class="modal-proj-desc"><a href=rocket_report.pdf target="_blank">[Project Report <i class="fas fa-external-link-alt fa-xs"></i>]</a></p>
 	            </div>
 	        </div>
 	    </div>
@@ -233,6 +262,16 @@
 	                <li data-tooltip="Stable Optimal Control&#xa; &#xa;Click for details">
 	                    <a href="#ex1" rel="modal:open">
 	                        <img src="optimal_control.png">
+	                    </a>
+	                </li>
+	                <li data-tooltip="AI-based Dead Reckoning&#xa; &#xa;Click for details">
+	                    <a href="#ex1_A" rel="modal:open">
+	                        <img src="deadreckoning.png">
+	                    </a>
+	                </li>
+	                <li data-tooltip="AI Tracks at Sea&#xa; &#xa;Click for details">
+	                    <a href="#ex1_B" rel="modal:open">
+	                        <img src="shiptracking.png">
 	                    </a>
 	                </li>
 	                <li data-tooltip="Deep Learning on Knowledge Graphs&#xa; &#xa;Click for details">
