@@ -103,6 +103,10 @@
   /*border: solid 2px red;*/
 }
 
+.discontinued {
+    color: #962300;
+}
+
 .blocker {
 	background-color: rgba(0,0,0,0.58) !important;
 }
