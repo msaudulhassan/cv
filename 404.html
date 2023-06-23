@@ -6,6 +6,7 @@
     <title>Redirecting...</title>
 
     <script>
+	let curr_link = "<a href='https://msaudulhassan.github.io/'>msaudulhassan.github.io</a>";
         window.onload = function () {
             const destination = window.location.href;
             if (window.location.href.includes("msaudulhassan.github.io/cv")) {
@@ -13,7 +14,7 @@
                     "msaudulhassan.github.io/cv",
                     "msaudulhassan.github.io"
                 );
-                document.getElementById("body").innerHTML = "My personal website has been moved to " + redirectLocation + "<br/><br/>Redirecting to " + redirectLocation + " ...";
+                document.getElementById("body").innerHTML = "My personal website has been moved to " + curr_link + "<br/><br/>Redirecting to " + redirectLocation + " ...";
                 window.location.href = redirectLocation;
             }
         }
